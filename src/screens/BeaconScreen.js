@@ -52,6 +52,7 @@ if (device != null) {
         let dis = this.calculateAccuracy(-69, device.rssi)
         this.setState({ rssi: dis.toFixed(2) })
         this.stopMethod()
+        // Distance beacon , between 1 and 5 m
         if (dis > 1 && dis < 5) {
           this.callPushNotification()
           this.startVibration();
@@ -113,7 +114,7 @@ if (device != null) {
       /* Android Only Properties */
       channelId: 'default-channel-id',
       ticker: 'My Notification Ticker', // (optional)
-      autoCancel: true,
+      autoCancel: false,
       largeIcon: 'ic_launcher', 
       smallIcon: 'ic_notification',
       bigText: 'Did you lock the door. Please Lock the door before leaving home', // (optional) default: "message" prop
