@@ -4455,14 +4455,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		093FCACCA9254E37955787573EC82B62 /* libMultiplatformBleAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMultiplatformBleAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B9BD901B3EB04B824A157C85265F044 /* libRNCPushNotificationIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCPushNotificationIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		093FCACCA9254E37955787573EC82B62 /* MultiplatformBleAdapter */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MultiplatformBleAdapter; path = libMultiplatformBleAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9BD901B3EB04B824A157C85265F044 /* RNCPushNotificationIOS */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNCPushNotificationIOS; path = libRNCPushNotificationIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		173C3984C21E9B207DEA4CA0B63EF70B /* Pods-IBeacon */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-IBeacon"; path = "libPods-IBeacon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1936453FF2A7E3A13063C4917C4D5598 /* libRCT-Folly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRCT-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "RCT-Folly"; path = "libRCT-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2577F299FCB0A19824FE989BE77B8E8F /* React-jsinspector */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-jsinspector"; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		269BE773C9482484B70949A40F4EA525 /* React-RCTSettings */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTSettings"; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37592FDAD45752511010F4B06AC57355 /* React-cxxreact */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-cxxreact"; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		396DAFDC3DCFBF31A37A3CC9488C0DDC /* libFlipper-Fmt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFlipper-Fmt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		396DAFDC3DCFBF31A37A3CC9488C0DDC /* Flipper-Fmt */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Flipper-Fmt"; path = "libFlipper-Fmt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA7A9404CCDD6BA22C97F8348CE3209 /* glog */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = glog; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EB2E000003F0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46EB2E00000400 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
@@ -7199,41 +7199,41 @@
 		46EB2E00017200 /* Pods-IBeacon-IBeaconTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IBeacon-IBeaconTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		46EB2E00017210 /* Pods-IBeacon-IBeaconTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IBeacon-IBeaconTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46EB2E00017220 /* Pods-IBeacon-IBeaconTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IBeacon-IBeaconTests-dummy.m"; sourceTree = "<group>"; };
-		5B3357A1CE67C0BF4AE31936A1BE6888 /* libYogaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYogaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		65234B3E668A42D9137B2C7AB051EE37 /* libFlipperKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFlipperKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3357A1CE67C0BF4AE31936A1BE6888 /* YogaKit */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = YogaKit; path = libYogaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65234B3E668A42D9137B2C7AB051EE37 /* FlipperKit */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = FlipperKit; path = libFlipperKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D0A19C165FA1126B1360680FE6DB12 /* Yoga */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Yoga; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E72807891C591E025A75410CD2A26 /* React-perflogger */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-perflogger"; path = "libReact-perflogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6771D231F4C8C5976470A369C474B32E /* React-CoreModules */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-CoreModules"; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D0E680E3D787063C2716E812E2A5AE /* React-bridging */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-bridging"; path = "libReact-bridging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CBEFE4F9E22AFDC6347A739BB35FF8C /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = CocoaAsyncSocket; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFB7B2992BB53405E6B771A5BA1E97D /* DoubleConversion */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = DoubleConversion; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		802121F5B756ACBFDD6D08C36246DADD /* React-RCTLinking */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTLinking"; path = "libReact-RCTLinking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85A01882ED06DFEA2E0CE78BCDB204A7 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FD3DD8368ED4B6E773ABAA49C117D42 /* libFlipper-Boost-iOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFlipper-Boost-iOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		99D5CD245388DC76AAEF6E1E351A90ED /* libFlipper-Folly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFlipper-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SocketRocket; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD3DD8368ED4B6E773ABAA49C117D42 /* Flipper-Boost-iOSX */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Flipper-Boost-iOSX"; path = "libFlipper-Boost-iOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D5CD245388DC76AAEF6E1E351A90ED /* Flipper-Folly */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Flipper-Folly"; path = "libFlipper-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B49761F8D1EB12585DD45CAA2E489F /* React-logger */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-logger"; path = "libReact-logger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68E5A9B69A3BA0FD52CAF7A354EC93B /* React-RCTNetwork */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTNetwork"; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACBB7F62B267CC7C9BBBAE41DE94743B /* libFlipper-PeerTalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFlipper-PeerTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B75A261FE3CE62D5A559B997074E70FC /* libreact-native-background-timer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libreact-native-background-timer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBB7F62B267CC7C9BBBAE41DE94743B /* Flipper-PeerTalk */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Flipper-PeerTalk"; path = "libFlipper-PeerTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75A261FE3CE62D5A559B997074E70FC /* react-native-background-timer */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "react-native-background-timer"; path = "libreact-native-background-timer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD71E2539823621820F84384064C253A /* React-Core */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-Core"; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A919103EAC9813D236486C34FC0A21 /* React-RCTVibration */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTVibration"; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C775614AC76D44CECB6BE08B022F1F /* ReactCommon */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ReactCommon; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9D2B55978EBC93064F6EC628C120938 /* libreact-native-ble-plx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libreact-native-ble-plx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D2B55978EBC93064F6EC628C120938 /* react-native-ble-plx */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "react-native-ble-plx"; path = "libreact-native-ble-plx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F334F2E90E3EE462FC4192AF5C03BD /* React-jsi */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-jsi"; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5D18442B9A49D150A6EDD47E5BFFBD6 /* libPods-IBeacon-IBeaconTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IBeacon-IBeaconTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D18442B9A49D150A6EDD47E5BFFBD6 /* Pods-IBeacon-IBeaconTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-IBeacon-IBeaconTests"; path = "libPods-IBeacon-IBeaconTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A16705C69FC7DE11C2469A4A0F8358 /* React-RCTText */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTText"; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7178FECB829C9576A3723658B07F087 /* libReact-Codegen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libReact-Codegen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E93F701CA8EB196D77AE99E094D873E4 /* libFlipper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFlipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7178FECB829C9576A3723658B07F087 /* React-Codegen */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-Codegen"; path = "libReact-Codegen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93F701CA8EB196D77AE99E094D873E4 /* Flipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Flipper; path = libFlipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDBF403E8E0B3885E65C2741B536BC5 /* React-RCTImage */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTImage"; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFC0AC7DB5BF86B8AE8916F7FCC03484 /* libreact-native-beacons-manager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libreact-native-beacons-manager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC0AC7DB5BF86B8AE8916F7FCC03484 /* react-native-beacons-manager */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "react-native-beacons-manager"; path = "libreact-native-beacons-manager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E7C88DFCD460A4B46B913ADEB8A641 /* React-jsiexecutor */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-jsiexecutor"; path = "libReact-jsiexecutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4BDA69E3BCB0166D49FB679ABADCA00 /* libfmt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfmt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BDA69E3BCB0166D49FB679ABADCA00 /* fmt */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = fmt; path = libfmt.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71EBF73F354B475D465FF6DE9A66707 /* React-RCTBlob */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTBlob"; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F958876A082BF810B342435CE3FB5AF6 /* RCTTypeSafety */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RCTTypeSafety; path = libRCTTypeSafety.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB6FAD8F0183E86ACBFBD8A81BA7BF3A /* liblibevent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibevent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6FAD8F0183E86ACBFBD8A81BA7BF3A /* libevent */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libevent; path = liblibevent.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6D792B6328AAF68E46924D7F466631 /* AccessibilityResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessibilityResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7B9294FF05AAFD1653E2104E10844A /* React-RCTAnimation */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTAnimation"; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFDC7746794AB17CFB7150820479DF40 /* libFlipper-RSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFlipper-RSocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDC7746794AB17CFB7150820479DF40 /* Flipper-RSocket */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Flipper-RSocket"; path = "libFlipper-RSocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -7563,25 +7563,25 @@
 		46EB2E00000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CBEFE4F9E22AFDC6347A739BB35FF8C /* libCocoaAsyncSocket.a */,
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
 				6FFB7B2992BB53405E6B771A5BA1E97D /* DoubleConversion */,
-				E93F701CA8EB196D77AE99E094D873E4 /* libFlipper.a */,
-				8FD3DD8368ED4B6E773ABAA49C117D42 /* libFlipper-Boost-iOSX.a */,
-				396DAFDC3DCFBF31A37A3CC9488C0DDC /* libFlipper-Fmt.a */,
-				99D5CD245388DC76AAEF6E1E351A90ED /* libFlipper-Folly.a */,
-				ACBB7F62B267CC7C9BBBAE41DE94743B /* libFlipper-PeerTalk.a */,
-				FFDC7746794AB17CFB7150820479DF40 /* libFlipper-RSocket.a */,
-				65234B3E668A42D9137B2C7AB051EE37 /* libFlipperKit.a */,
-				F4BDA69E3BCB0166D49FB679ABADCA00 /* libfmt.a */,
+				E93F701CA8EB196D77AE99E094D873E4 /* Flipper */,
+				8FD3DD8368ED4B6E773ABAA49C117D42 /* Flipper-Boost-iOSX */,
+				396DAFDC3DCFBF31A37A3CC9488C0DDC /* Flipper-Fmt */,
+				99D5CD245388DC76AAEF6E1E351A90ED /* Flipper-Folly */,
+				ACBB7F62B267CC7C9BBBAE41DE94743B /* Flipper-PeerTalk */,
+				FFDC7746794AB17CFB7150820479DF40 /* Flipper-RSocket */,
+				65234B3E668A42D9137B2C7AB051EE37 /* FlipperKit */,
+				F4BDA69E3BCB0166D49FB679ABADCA00 /* fmt */,
 				3CA7A9404CCDD6BA22C97F8348CE3209 /* glog */,
-				FB6FAD8F0183E86ACBFBD8A81BA7BF3A /* liblibevent.a */,
-				093FCACCA9254E37955787573EC82B62 /* libMultiplatformBleAdapter.a */,
+				FB6FAD8F0183E86ACBFBD8A81BA7BF3A /* libevent */,
+				093FCACCA9254E37955787573EC82B62 /* MultiplatformBleAdapter */,
 				173C3984C21E9B207DEA4CA0B63EF70B /* Pods-IBeacon */,
-				E5D18442B9A49D150A6EDD47E5BFFBD6 /* libPods-IBeacon-IBeaconTests.a */,
-				1936453FF2A7E3A13063C4917C4D5598 /* libRCT-Folly.a */,
+				E5D18442B9A49D150A6EDD47E5BFFBD6 /* Pods-IBeacon-IBeaconTests */,
+				1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */,
 				F958876A082BF810B342435CE3FB5AF6 /* RCTTypeSafety */,
 				68D0E680E3D787063C2716E812E2A5AE /* React-bridging */,
-				E7178FECB829C9576A3723658B07F087 /* libReact-Codegen.a */,
+				E7178FECB829C9576A3723658B07F087 /* React-Codegen */,
 				BD71E2539823621820F84384064C253A /* React-Core */,
 				FE6D792B6328AAF68E46924D7F466631 /* AccessibilityResources.bundle */,
 				6771D231F4C8C5976470A369C474B32E /* React-CoreModules */,
@@ -7590,9 +7590,9 @@
 				F2E7C88DFCD460A4B46B913ADEB8A641 /* React-jsiexecutor */,
 				2577F299FCB0A19824FE989BE77B8E8F /* React-jsinspector */,
 				A5B49761F8D1EB12585DD45CAA2E489F /* React-logger */,
-				B75A261FE3CE62D5A559B997074E70FC /* libreact-native-background-timer.a */,
-				EFC0AC7DB5BF86B8AE8916F7FCC03484 /* libreact-native-beacons-manager.a */,
-				D9D2B55978EBC93064F6EC628C120938 /* libreact-native-ble-plx.a */,
+				B75A261FE3CE62D5A559B997074E70FC /* react-native-background-timer */,
+				EFC0AC7DB5BF86B8AE8916F7FCC03484 /* react-native-beacons-manager */,
+				D9D2B55978EBC93064F6EC628C120938 /* react-native-ble-plx */,
 				666E72807891C591E025A75410CD2A26 /* React-perflogger */,
 				FE7B9294FF05AAFD1653E2104E10844A /* React-RCTAnimation */,
 				F71EBF73F354B475D465FF6DE9A66707 /* React-RCTBlob */,
@@ -7603,10 +7603,10 @@
 				E6A16705C69FC7DE11C2469A4A0F8358 /* React-RCTText */,
 				C1A919103EAC9813D236486C34FC0A21 /* React-RCTVibration */,
 				D5C775614AC76D44CECB6BE08B022F1F /* ReactCommon */,
-				0B9BD901B3EB04B824A157C85265F044 /* libRNCPushNotificationIOS.a */,
-				85A01882ED06DFEA2E0CE78BCDB204A7 /* libSocketRocket.a */,
+				0B9BD901B3EB04B824A157C85265F044 /* RNCPushNotificationIOS */,
+				85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket */,
 				65D0A19C165FA1126B1360680FE6DB12 /* Yoga */,
-				5B3357A1CE67C0BF4AE31936A1BE6888 /* libYogaKit.a */,
+				5B3357A1CE67C0BF4AE31936A1BE6888 /* YogaKit */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -14103,7 +14103,7 @@
 			);
 			name = fmt;
 			productName = fmt;
-			productReference = F4BDA69E3BCB0166D49FB679ABADCA00 /* libfmt.a */;
+			productReference = F4BDA69E3BCB0166D49FB679ABADCA00 /* fmt */;
 			productType = "com.apple.product-type.library.static";
 		};
 		039CABE69F209F96FC48554D726456EE /* RNCPushNotificationIOS */ = {
@@ -14121,7 +14121,7 @@
 			);
 			name = RNCPushNotificationIOS;
 			productName = RNCPushNotificationIOS;
-			productReference = 0B9BD901B3EB04B824A157C85265F044 /* libRNCPushNotificationIOS.a */;
+			productReference = 0B9BD901B3EB04B824A157C85265F044 /* RNCPushNotificationIOS */;
 			productType = "com.apple.product-type.library.static";
 		};
 		04A30E186743192DFB26B0FD7DB8F250 /* libevent */ = {
@@ -14138,7 +14138,7 @@
 			);
 			name = libevent;
 			productName = libevent;
-			productReference = FB6FAD8F0183E86ACBFBD8A81BA7BF3A /* liblibevent.a */;
+			productReference = FB6FAD8F0183E86ACBFBD8A81BA7BF3A /* libevent */;
 			productType = "com.apple.product-type.library.static";
 		};
 		083B602EA19B4AD50EC53C0602F29A7D /* React-logger */ = {
@@ -14173,7 +14173,7 @@
 			);
 			name = "Flipper-Fmt";
 			productName = "Flipper-Fmt";
-			productReference = 396DAFDC3DCFBF31A37A3CC9488C0DDC /* libFlipper-Fmt.a */;
+			productReference = 396DAFDC3DCFBF31A37A3CC9488C0DDC /* Flipper-Fmt */;
 			productType = "com.apple.product-type.library.static";
 		};
 		1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */ = {
@@ -14190,7 +14190,7 @@
 			);
 			name = SocketRocket;
 			productName = SocketRocket;
-			productReference = 85A01882ED06DFEA2E0CE78BCDB204A7 /* libSocketRocket.a */;
+			productReference = 85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket */;
 			productType = "com.apple.product-type.library.static";
 		};
 		1FAAE067C1BFDEA17DFB657C3379AB56 /* Flipper-RSocket */ = {
@@ -14208,7 +14208,7 @@
 			);
 			name = "Flipper-RSocket";
 			productName = "Flipper-RSocket";
-			productReference = FFDC7746794AB17CFB7150820479DF40 /* libFlipper-RSocket.a */;
+			productReference = FFDC7746794AB17CFB7150820479DF40 /* Flipper-RSocket */;
 			productType = "com.apple.product-type.library.static";
 		};
 		21F29269579D3CB800107554950048CF /* react-native-ble-plx */ = {
@@ -14227,7 +14227,7 @@
 			);
 			name = "react-native-ble-plx";
 			productName = "react-native-ble-plx";
-			productReference = D9D2B55978EBC93064F6EC628C120938 /* libreact-native-ble-plx.a */;
+			productReference = D9D2B55978EBC93064F6EC628C120938 /* react-native-ble-plx */;
 			productType = "com.apple.product-type.library.static";
 		};
 		2AB2EF542954AB1C999E03BFEF8DE806 /* DoubleConversion */ = {
@@ -14280,7 +14280,7 @@
 			);
 			name = YogaKit;
 			productName = YogaKit;
-			productReference = 5B3357A1CE67C0BF4AE31936A1BE6888 /* libYogaKit.a */;
+			productReference = 5B3357A1CE67C0BF4AE31936A1BE6888 /* YogaKit */;
 			productType = "com.apple.product-type.library.static";
 		};
 		463F41A7E8B252F8AC5024DA1F4AF6DA /* React-cxxreact */ = {
@@ -14400,7 +14400,7 @@
 			);
 			name = "Pods-IBeacon-IBeaconTests";
 			productName = "Pods-IBeacon-IBeaconTests";
-			productReference = E5D18442B9A49D150A6EDD47E5BFFBD6 /* libPods-IBeacon-IBeaconTests.a */;
+			productReference = E5D18442B9A49D150A6EDD47E5BFFBD6 /* Pods-IBeacon-IBeaconTests */;
 			productType = "com.apple.product-type.library.static";
 		};
 		53D121F9F9BB0F8AC1C94A12C5A8572F /* React-RCTVibration */ = {
@@ -14459,7 +14459,7 @@
 			);
 			name = "react-native-beacons-manager";
 			productName = "react-native-beacons-manager";
-			productReference = EFC0AC7DB5BF86B8AE8916F7FCC03484 /* libreact-native-beacons-manager.a */;
+			productReference = EFC0AC7DB5BF86B8AE8916F7FCC03484 /* react-native-beacons-manager */;
 			productType = "com.apple.product-type.library.static";
 		};
 		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
@@ -14476,7 +14476,7 @@
 			);
 			name = CocoaAsyncSocket;
 			productName = CocoaAsyncSocket;
-			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* libCocoaAsyncSocket.a */;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */;
 			productType = "com.apple.product-type.library.static";
 		};
 		6514D69CB93B41626AE1A05581F97B07 /* react-native-background-timer */ = {
@@ -14494,7 +14494,7 @@
 			);
 			name = "react-native-background-timer";
 			productName = "react-native-background-timer";
-			productReference = B75A261FE3CE62D5A559B997074E70FC /* libreact-native-background-timer.a */;
+			productReference = B75A261FE3CE62D5A559B997074E70FC /* react-native-background-timer */;
 			productType = "com.apple.product-type.library.static";
 		};
 		651511D7DA7F07F9FC9AA40A2E86270D /* React-RCTNetwork */ = {
@@ -14542,7 +14542,7 @@
 			);
 			name = "React-Codegen";
 			productName = "React-Codegen";
-			productReference = E7178FECB829C9576A3723658B07F087 /* libReact-Codegen.a */;
+			productReference = E7178FECB829C9576A3723658B07F087 /* React-Codegen */;
 			productType = "com.apple.product-type.library.static";
 		};
 		680299219D3A48D42A648AF6706275A9 /* React-RCTSettings */ = {
@@ -14603,7 +14603,7 @@
 			);
 			name = "Flipper-PeerTalk";
 			productName = "Flipper-PeerTalk";
-			productReference = ACBB7F62B267CC7C9BBBAE41DE94743B /* libFlipper-PeerTalk.a */;
+			productReference = ACBB7F62B267CC7C9BBBAE41DE94743B /* Flipper-PeerTalk */;
 			productType = "com.apple.product-type.library.static";
 		};
 		7A020DAB6F3F0BA0A6D9946E84B38B7F /* React-Core-AccessibilityResources */ = {
@@ -14687,7 +14687,7 @@
 			);
 			name = MultiplatformBleAdapter;
 			productName = MultiplatformBleAdapter;
-			productReference = 093FCACCA9254E37955787573EC82B62 /* libMultiplatformBleAdapter.a */;
+			productReference = 093FCACCA9254E37955787573EC82B62 /* MultiplatformBleAdapter */;
 			productType = "com.apple.product-type.library.static";
 		};
 		95D98F901D07557EF7CA38D3F03832C5 /* React-RCTBlob */ = {
@@ -14733,7 +14733,7 @@
 			);
 			name = FlipperKit;
 			productName = FlipperKit;
-			productReference = 65234B3E668A42D9137B2C7AB051EE37 /* libFlipperKit.a */;
+			productReference = 65234B3E668A42D9137B2C7AB051EE37 /* FlipperKit */;
 			productType = "com.apple.product-type.library.static";
 		};
 		A023D861A28489AA35249596762818D4 /* Pods-IBeacon */ = {
@@ -14825,7 +14825,7 @@
 			);
 			name = "Flipper-Folly";
 			productName = "Flipper-Folly";
-			productReference = 99D5CD245388DC76AAEF6E1E351A90ED /* libFlipper-Folly.a */;
+			productReference = 99D5CD245388DC76AAEF6E1E351A90ED /* Flipper-Folly */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B6D5DD49633DFF0657B8C3F08EB3ABA9 /* ReactCommon */ = {
@@ -14869,7 +14869,7 @@
 			);
 			name = "Flipper-Boost-iOSX";
 			productName = "Flipper-Boost-iOSX";
-			productReference = 8FD3DD8368ED4B6E773ABAA49C117D42 /* libFlipper-Boost-iOSX.a */;
+			productReference = 8FD3DD8368ED4B6E773ABAA49C117D42 /* Flipper-Boost-iOSX */;
 			productType = "com.apple.product-type.library.static";
 		};
 		D0EFEFB685D97280256C559792236873 /* glog */ = {
@@ -14990,7 +14990,7 @@
 			);
 			name = Flipper;
 			productName = Flipper;
-			productReference = E93F701CA8EB196D77AE99E094D873E4 /* libFlipper.a */;
+			productReference = E93F701CA8EB196D77AE99E094D873E4 /* Flipper */;
 			productType = "com.apple.product-type.library.static";
 		};
 		EC55D52694092A9D0E6A78EB01207EB5 /* RCT-Folly */ = {
@@ -15011,7 +15011,7 @@
 			);
 			name = "RCT-Folly";
 			productName = "RCT-Folly";
-			productReference = 1936453FF2A7E3A13063C4917C4D5598 /* libRCT-Folly.a */;
+			productReference = 1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */;
 			productType = "com.apple.product-type.library.static";
 		};
 		F1E2583679398CB5F4D2B3272E9B198F /* React-perflogger */ = {
@@ -15075,8 +15075,8 @@
 		46EB2E00000000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 46EB2E00000030 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 12.0";
@@ -18129,7 +18129,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -18198,7 +18197,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -18241,7 +18239,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18270,7 +18268,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18448,7 +18446,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18478,7 +18476,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18507,7 +18505,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18537,7 +18535,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18563,7 +18561,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -18585,7 +18583,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -18609,7 +18607,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18639,7 +18637,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18668,7 +18666,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18698,7 +18696,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18724,7 +18722,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -18746,7 +18744,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -18769,7 +18767,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18798,7 +18796,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18827,7 +18825,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18857,7 +18855,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -18886,7 +18884,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = Headers/Public/FlipperKit/FlipperKit.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -18917,7 +18915,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = Headers/Public/FlipperKit/FlipperKit.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -18946,7 +18944,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -18976,7 +18974,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = Headers/Public/MultiplatformBleAdapter/MultiplatformBleAdapter.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -19003,7 +19001,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -19025,7 +19023,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -19048,7 +19046,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = "Headers/Public/folly/RCT-Folly.modulemap";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -19077,7 +19075,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = "Headers/Public/folly/RCT-Folly.modulemap";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -19212,7 +19210,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -19242,7 +19240,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -19316,7 +19314,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = "Headers/Public/React_Codegen/React-Codegen.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -19347,7 +19345,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = "Headers/Public/React_Codegen/React-Codegen.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -19435,7 +19433,6 @@
 			baseConfigurationReference = 46EB2E00013BF0 /* React-Core.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/React-Core";
-				DEVELOPMENT_TEAM = JZKK3M7CCF;
 				IBSC_MODULE = React;
 				INFOPLIST_FILE = "Target Support Files/React-Core/ResourceBundle-AccessibilityResources-React-Core-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
@@ -20617,7 +20614,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -20646,7 +20643,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -20735,7 +20732,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = Headers/Public/YogaKit/YogaKit.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -20765,7 +20762,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = Headers/Public/YogaKit/YogaKit.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -20793,7 +20790,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -20816,7 +20813,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -20840,7 +20837,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -20870,7 +20867,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -20958,7 +20955,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -20988,7 +20985,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -21016,7 +21013,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -21045,7 +21042,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -21073,7 +21070,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -21102,7 +21099,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -21130,7 +21127,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -21159,7 +21156,7 @@
 					"\"$(PODS_ROOT)/Headers/Private/React-bridging/react/bridging\"",
 					"\"$(PODS_CONFIGURATION_BUILD_DIR)/React-bridging/react_bridging.framework/Headers\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -21223,7 +21220,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46EB2E00017190 /* Pods-IBeacon-IBeaconTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -21246,7 +21243,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46EB2E000171A0 /* Pods-IBeacon-IBeaconTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

@@ -28,7 +28,7 @@ export default class BeaconScreen extends Component {
     super(props);
 
     //creating obiect of beacon manager for utilising its methods
-    this.manager = new BleManager();
+    this.manager = new BleManager()
     this.state = {
      rssi:0
     };
@@ -48,7 +48,7 @@ export default class BeaconScreen extends Component {
 
       //Put check here app will only work on vour beacon
 //BEACON_UUID=> created variable for beacon UUID store
-if (device != null && device.uuid == BEACON_UUID) { 
+if (device != null) { 
         let dis = this.calculateAccuracy(-69, device.rssi)
         this.setState({ rssi: dis.toFixed(2) })
         this.stopMethod()
