@@ -19,7 +19,7 @@ export const Item = ({ bg, wd, label, count, icon }) => {
 const styles = StyleSheet.create({
     itemContainer: {
         width: wp(43.5),
-        backgroundColor: 'red',
+        backgroundColor: '#1c2025',
         height: 100,
         marginBottom: 15,
         borderRadius: 8,
